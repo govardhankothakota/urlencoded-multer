@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+h2{
+  color: rgb(247, 38, 153);
+  text-shadow: 1px 1px 1px white;
+}
+body{
+  background-image: url("https://img.freepik.com/free-vector/gradient-abstract-wireframe-background_23-2149020364.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+font-weight: 400;
+
+}
+
+form{
+  display: inline-block;
+  /* border: 1px solid black; */
+  padding: 20px;
+  /* background-color: rgb(19, 18, 18); */
+  color: white;
+  border-radius: 15px;
+}
+form label{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+.formCountainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input,form select{
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 20px;
+  
+}
+form select,.picInput{
+  width: 170px;
+}
+form div{
+  margin: 10px;
+}
+
+span{
+  display: inline-block;
+  width: 30px;
+  font-size: 0.5rem;
+  
+}
+button{
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  border: 1px solid gray;
+}
+
+.picPreview{
+  width: 70px;
+  height: 80px;
+  border: 1px solid black;
+  position: relative;
+ left: 10px;
+}
+
+
+.conformationPopup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.popupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.popupButtons {
+  margin-top: 20px;
+}
+
+.popupButtons button {
+  margin: 0 10px;
+}
